@@ -10,6 +10,7 @@ html{
 body{
   background-color: #d9d9d9;
   background-size:cover;
+  overflow-x: hidden;
 }
 
 .font-2{
@@ -177,11 +178,11 @@ ul{
 
 #nav{ 
   justify-content: center;
-   margin: 0px;
+   left: 3rem;
    position: fixed;
    bottom: 3vh;
    display: flex;
-   width: 100%;
+   max-width: 100%;
    z-index: 1;
   }
   
@@ -511,10 +512,8 @@ ul{
 
 table {
   border-collapse: collapse;
-  width: 90%;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  margin: 0 2rem;
   background-color: #ffffff2a;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3 );  
 }
@@ -649,7 +648,8 @@ button.submit-btn:hover {
 }
 
 .gift-card {
-  width: 90%;
+  max-width: 100%;
+  margin: 0 2rem;
   padding-bottom: 30px;
   height: auto;
   margin-bottom: 40px;
@@ -833,12 +833,12 @@ box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.461);}
 
 .audio-icon-wrapper{
   text-align: center;
-  width: 2rem;
+  max-width: 100%;
   height: 2rem;
   font-size: 3rem;
   position: fixed;
   top: 2rem;
-  right: 2rem;
+  right: 0;
   cursor: pointer;
   color: #ffffff;
   padding: 0.5rem;
